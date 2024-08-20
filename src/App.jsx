@@ -20,7 +20,7 @@ function App() {
   const [getalltasks, setGetalltasks] = useState(null);
   const [tournament, setTournament] = useState(null);
 
-  console.log(WebApp.initDataUnsafe);
+  console.log(WebApp.initDataUnsafe.start_param);
 
   useEffect(() => {
     if (WebApp.initDataUnsafe.user) {
