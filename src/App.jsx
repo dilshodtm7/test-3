@@ -20,7 +20,7 @@ function App() {
   const [getalltasks, setGetalltasks] = useState(null);
   const [tournament, setTournament] = useState(null);
 
-  console.log(WebApp.tgWebAppStartParam);
+  console.log(WebApp.initDataUnsafe);
 
   useEffect(() => {
     if (WebApp.initDataUnsafe.user) {
